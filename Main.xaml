@@ -57,7 +57,7 @@
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="## Description&#xD;&#xA;1. Configure all AMD GPUs to use the default performnce profile.&#xD;&#xA;2. Launch Nicehash to start mining using default settingd.&#xD;&#xA;3. Close Nicehash&#xD;&#xA;4. Load optimized performance profiles for GPUs&#xD;&#xA;5. Launch Nicehash to perform mining" DisplayName="Main" sap:VirtualizedContainerService.HintSize="418,1270" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="## Description&#xA;1. Configure all AMD GPUs to use the default performnce profile.&#xA;2. Launch Nicehash to start mining using default settingd.&#xA;3. Close Nicehash&#xA;4. Load optimized performance profiles for GPUs&#xA;5. Launch Nicehash to perform mining" DisplayName="Main" sap:VirtualizedContainerService.HintSize="418,1270" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -92,7 +92,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InvokeWorkflowFile>
-      <Delay sap2010:Annotation.AnnotationText="Allow Nicehash to run for 15 seconds." Duration="00:00:15" sap:VirtualizedContainerService.HintSize="334,64" sap2010:WorkflowViewState.IdRef="Delay_1">
+      <Delay sap2010:Annotation.AnnotationText="Allow Nicehash to run for  to lock in the settings." Duration="00:01:00" sap:VirtualizedContainerService.HintSize="334,64" sap2010:WorkflowViewState.IdRef="Delay_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
